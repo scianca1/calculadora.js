@@ -1,0 +1,54 @@
+body{
+    background-color: #202124;
+}
+.calculadora{
+    background-image: url(imagenes/fondo_calculadora.jpg);
+    border: 10px aqua solid;
+    border-radius: 10px;
+    margin-left: 30% ;
+    margin-right: 30%;
+    margin-top: 5%;
+
+}
+.input{
+    
+    text-align: center;
+    
+
+}
+.cantidad {
+    border: 7px red solid;
+    text-align: center;
+    font-size: 15px;
+}
+.sumariva{
+    
+    text-align: center;
+}
+.resultado{
+    background-color: rgb(179, 174, 174);
+    border: green solid;
+    text-align: center;
+    font-size: 24px;
+}
+
+.input,.sumariva,.resultado{
+    margin: 10% 10% 10% 10%;
+}
+.btn,.btns{
+    margin-top: 5%;
+    background: #5f6368;
+    color: #e8eaed;
+    border: 1px solid #5f6368;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: green;
+}
+.btns:hover{
+    background-color: red;
+}
+
+
